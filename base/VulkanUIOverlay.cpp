@@ -71,8 +71,8 @@ namespace vks
 			io.Fonts->AddFontFromMemoryTTF(fontAsset, size, 14.0f * scale);
 			delete[] fontAsset;
 		}
-#else
-		io.Fonts->AddFontFromFileTTF("./../data/Roboto-Medium.ttf", 16.0f);
+#elsif !defined(__APPLE__)
+		io.Fonts->AddFontFromFileTTF( "./../data/Roboto-Medium.ttf", 16.0f);
 #endif		
 		io.Fonts->GetTexDataAsRGBA32(&fontData, &texWidth, &texHeight);
 		VkDeviceSize uploadSize = texWidth*texHeight * 4 * sizeof(char);

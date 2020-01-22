@@ -226,4 +226,7 @@ data/models/cerberus/*.*
 *.vcxproj.user
 
 # Ignore macOS .DS_Store
+.DS_Store*.xcuserdata
+*.xcuserdatad
+IDEWorkspaceChecks.plist
 .DS_Store
