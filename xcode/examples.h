@@ -27,7 +27,7 @@
 // In the list below, the comments indicate entries that,
 // under certain conditions, that may not run as expected.
 
-//#define MVK_computecullandlod
+#define MVK_vulkanscene
 
 // BASICS
 
@@ -301,7 +301,54 @@
 #endif
 
 
-// EXTENSIONS - Currently unsupported by MoltenVK
+// EXTENSIONS
+
+// Not working. Currently unsupported by MoltenVK
+#ifdef MVK_conservativeraster
+#	include "../examples/conservativeraster/conservativeraster.cpp"
+#endif
+
+#ifdef MVK_pushdescriptors
+#	include "../examples/pushdescriptors/pushdescriptors.cpp"
+#endif
+
+// Not working. Currently unsupported by MoltenVK
+#ifdef MVK_inlineuniformblocks
+#    include "../examples/inlineuniformblocks/inlineuniformblocks.cpp"
+#endif
+
+// Not working. Currently unsupported by MoltenVK
+#ifdef MVK_multiview
+#	include "../examples/multiview/multiview.cpp"
+#endif
+
+// Not compiling!
+#ifdef MVK_conditionalrender
+#	include "../examples/conditionalrender/conditionalrender.cpp"
+#endif
+
+#ifdef MVK_debugmarker
+#    include "../examples/debugmarker/debugmarker.cpp"
+#endif
+
+#ifdef MVK_negativeviewportheight
+#    include "../examples/negativeviewportheight/negativeviewportheight.cpp"
+#endif
+
+// Not compiling!
+#ifdef MVK_nv_ray_tracing_basic
+#    include "../examples/nv_ray_tracing_basic/nv_ray_tracing_basic.cpp"
+#endif
+
+// Not compiling!
+#ifdef MVK_nv_ray_tracing_shadows
+#    include "../examples/nv_ray_tracing_shadows/nv_ray_tracing_shadows.cpp"
+#endif
+
+// Not compiling!
+#ifdef MVK_nv_ray_tracing_reflections
+#    include "../examples/nv_ray_tracing_reflections/nv_ray_tracing_reflections.cpp"
+#endif
 
 
 // MISC
