@@ -230,3 +230,5 @@ data/models/cerberus/*.*
 *.xcuserdatad
 IDEWorkspaceChecks.plist
 .DS_Store
+data
+readme.txt
