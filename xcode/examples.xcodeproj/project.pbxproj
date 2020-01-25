@@ -27,13 +27,29 @@
 		5F8A2BB423D907400027D61D /* libMoltenVK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F8A2BB323D907400027D61D /* libMoltenVK.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		5F8A2BBF23D90B140027D61D /* libassimp.3.3.1.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 5F8A2BBE23D90B140027D61D /* libassimp.3.3.1.dylib */; };
 		5F8A2BC023D90B1C0027D61D /* libassimp.3.3.1.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F8A2BBE23D90B140027D61D /* libassimp.3.3.1.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
+		5F8A2BC423DB35190027D61D /* imgui_demo.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9A79EEA2045045D00696219 /* imgui_demo.cpp */; };
+		5F8A2BC523DB35270027D61D /* imgui_draw.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9A79EEB2045045D00696219 /* imgui_draw.cpp */; };
+		5F8A2BC623DB35270027D61D /* imgui.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C9A79EF02045045E00696219 /* imgui.cpp */; };
+		5F8A2BC723DB35430027D61D /* texture.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2BAC23D906130027D61D /* texture.c */; };
+		5F8A2BC823DB35430027D61D /* checkheader.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8123D9051C0027D61D /* checkheader.c */; };
+		5F8A2BC923DB35430027D61D /* errstr.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8E23D9051D0027D61D /* errstr.c */; };
+		5F8A2BCA23DB35430027D61D /* etcdec.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8A23D9051D0027D61D /* etcdec.cxx */; };
+		5F8A2BCB23DB35430027D61D /* etcunpack.cxx in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8623D9051C0027D61D /* etcunpack.cxx */; };
+		5F8A2BCC23DB35430027D61D /* filestream.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8423D9051C0027D61D /* filestream.c */; };
+		5F8A2BCD23DB35430027D61D /* hashlist.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8923D9051D0027D61D /* hashlist.c */; };
+		5F8A2BCE23DB35430027D61D /* hashtable.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8323D9051C0027D61D /* hashtable.c */; };
+		5F8A2BCF23DB35430027D61D /* memstream.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8C23D9051D0027D61D /* memstream.c */; };
+		5F8A2BD023DB35430027D61D /* swap.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8823D9051D0027D61D /* swap.c */; };
+		5F8A2BD123DB35430027D61D /* vk_funcs.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8223D9051C0027D61D /* vk_funcs.c */; };
+		5F8A2BD223DB35430027D61D /* writer_v1.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8523D9051C0027D61D /* writer_v1.c */; };
+		5F8A2BD323DB35430027D61D /* writer.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F8A2B8723D9051D0027D61D /* writer.c */; };
+		5F8A2BD523DB35CE0027D61D /* libMoltenVK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5F8A2BD423DB35CE0027D61D /* libMoltenVK.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A951FF171E9C349000FA9144 /* VulkanDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A951FF071E9C349000FA9144 /* VulkanDebug.cpp */; };
 		A951FF181E9C349000FA9144 /* VulkanDebug.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A951FF071E9C349000FA9144 /* VulkanDebug.cpp */; };
 		A951FF191E9C349000FA9144 /* vulkanexamplebase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A951FF0A1E9C349000FA9144 /* vulkanexamplebase.cpp */; };
 		A951FF1A1E9C349000FA9144 /* vulkanexamplebase.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A951FF0A1E9C349000FA9144 /* vulkanexamplebase.cpp */; };
 		A951FF1B1E9C349000FA9144 /* VulkanTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A951FF131E9C349000FA9144 /* VulkanTools.cpp */; };
 		A951FF1C1E9C349000FA9144 /* VulkanTools.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A951FF131E9C349000FA9144 /* VulkanTools.cpp */; };
-		A9532B761EF99894000A09E2 /* libMoltenVK.dylib in CopyFiles */ = {isa = PBXBuildFile; fileRef = A9532B751EF99894000A09E2 /* libMoltenVK.dylib */; settings = {ATTRIBUTES = (CodeSignOnCopy, ); }; };
 		A9532B771EF9991A000A09E2 /* libMoltenVK.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A9532B751EF99894000A09E2 /* libMoltenVK.dylib */; };
 		A9581BA61EEB648800247309 /* libassimp.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9581BA51EEB648800247309 /* libassimp.a */; };
 		A9581BA81EEB648C00247309 /* libzlibstatic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A9581BA71EEB648C00247309 /* libzlibstatic.a */; };
@@ -97,7 +113,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 6;
 			files = (
-				A9532B761EF99894000A09E2 /* libMoltenVK.dylib in CopyFiles */,
+				5F8A2BD523DB35CE0027D61D /* libMoltenVK.dylib in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -125,6 +141,7 @@
 		5F8A2BAE23D906930027D61D /* libMoltenVK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMoltenVK.dylib; path = "../../bin/vulkansdk-macos-1.1.126.0/MoltenVK/macOS/dynamic/libMoltenVK.dylib"; sourceTree = "<group>"; };
 		5F8A2BB323D907400027D61D /* libMoltenVK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMoltenVK.dylib; path = "../../bin/vulkansdk-macos-1.1.126.0/MoltenVK/macOS/dynamic/libMoltenVK.dylib"; sourceTree = "<group>"; };
 		5F8A2BBE23D90B140027D61D /* libassimp.3.3.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libassimp.3.3.1.dylib; path = "../../assimp-3.3.1-macos/lib/libassimp.3.3.1.dylib"; sourceTree = "<group>"; };
+		5F8A2BD423DB35CE0027D61D /* libMoltenVK.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libMoltenVK.dylib; path = "../../bin/vulkansdk-macos-1.1.126.0/MoltenVK/iOS/dynamic/libMoltenVK.dylib"; sourceTree = "<group>"; };
 		A92F37071C7E1B2B008F8BC9 /* examples.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = examples.h; sourceTree = "<group>"; };
 		A94A67231B7BDE9B00F6D7C4 /* MetalGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalGL.framework; path = ../../MetalGL/macOS/MetalGL.framework; sourceTree = "<group>"; };
 		A94A67241B7BDE9B00F6D7C4 /* MetalGLShaderConverter.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MetalGLShaderConverter.framework; path = ../../MetalGLShaderConverter/macOS/MetalGLShaderConverter.framework; sourceTree = "<group>"; };
@@ -234,6 +251,7 @@
 			isa = PBXGroup;
 			children = (
 				5F8A2BB323D907400027D61D /* libMoltenVK.dylib */,
+				5F8A2BD423DB35CE0027D61D /* libMoltenVK.dylib */,
 				5F8A2BAC23D906130027D61D /* texture.c */,
 				5F8A2B8123D9051C0027D61D /* checkheader.c */,
 				5F8A2B8E23D9051D0027D61D /* errstr.c */,
@@ -442,7 +460,7 @@
 				LastUpgradeCheck = 0920;
 				TargetAttributes = {
 					1D6058900D05DD3D006BFB54 = {
-						DevelopmentTeam = VU3TCKU48B;
+						DevelopmentTeam = MUA4S5P5G9;
 					};
 					A977BCBD1B66BB010067E5BF = {
 						DevelopmentTeam = VU3TCKU48B;
@@ -499,11 +517,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5F8A2BC723DB35430027D61D /* texture.c in Sources */,
+				5F8A2BC823DB35430027D61D /* checkheader.c in Sources */,
+				5F8A2BC923DB35430027D61D /* errstr.c in Sources */,
+				5F8A2BCA23DB35430027D61D /* etcdec.cxx in Sources */,
+				5F8A2BCB23DB35430027D61D /* etcunpack.cxx in Sources */,
+				5F8A2BCC23DB35430027D61D /* filestream.c in Sources */,
+				5F8A2BCD23DB35430027D61D /* hashlist.c in Sources */,
+				5F8A2BCE23DB35430027D61D /* hashtable.c in Sources */,
+				5F8A2BCF23DB35430027D61D /* memstream.c in Sources */,
+				5F8A2BD023DB35430027D61D /* swap.c in Sources */,
+				5F8A2BD123DB35430027D61D /* vk_funcs.c in Sources */,
+				5F8A2BD223DB35430027D61D /* writer_v1.c in Sources */,
+				5F8A2BD323DB35430027D61D /* writer.c in Sources */,
+				5F8A2BC523DB35270027D61D /* imgui_draw.cpp in Sources */,
+				5F8A2BC623DB35270027D61D /* imgui.cpp in Sources */,
 				A951FF171E9C349000FA9144 /* VulkanDebug.cpp in Sources */,
 				A9BC9B1C1EE8421F00384233 /* MVKExample.cpp in Sources */,
 				C9A79EFC204504E000696219 /* VulkanUIOverlay.cpp in Sources */,
 				5F8A2B7823D9035A0027D61D /* imgui_widgets.cpp in Sources */,
 				A9B67B7A1C3AAE9800373FFD /* DemoViewController.mm in Sources */,
+				5F8A2BC423DB35190027D61D /* imgui_demo.cpp in Sources */,
 				A9B67B781C3AAE9800373FFD /* AppDelegate.m in Sources */,
 				C9788FD52044D78D00AB0892 /* VulkanAndroid.cpp in Sources */,
 				A951FF1B1E9C349000FA9144 /* VulkanTools.cpp in Sources */,
@@ -558,7 +592,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = VU3TCKU48B;
+				DEVELOPMENT_TEAM = MUA4S5P5G9;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -576,6 +610,7 @@
 					"\"$(SRCROOT)/assimp/assimp-ios/lib/iOS/arm64\"",
 					"\"$(SRCROOT)/assimp/assimp-ios/lib\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhsaez.moltenvk.examples;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = arm64;
@@ -586,7 +621,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEVELOPMENT_TEAM = VU3TCKU48B;
+				DEVELOPMENT_TEAM = MUA4S5P5G9;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
@@ -602,6 +637,7 @@
 					"\"$(SRCROOT)/assimp/assimp-ios/lib/iOS/arm64\"",
 					"\"$(SRCROOT)/assimp/assimp-ios/lib\"",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.hhsaez.moltenvk.examples;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALID_ARCHS = arm64;
@@ -617,11 +653,13 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
 				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
 					"DEBUG=1",
 					_DEBUG,
 					VK_USE_PLATFORM_MACOS_MVK,
 				);
 				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"$(inherited)",
 					"DEBUG=1",
 					_DEBUG,
 					VK_USE_PLATFORM_MACOS_MVK,
@@ -645,8 +683,14 @@
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = NO;
 				GCC_PREFIX_HEADER = "";
-				GCC_PREPROCESSOR_DEFINITIONS = VK_USE_PLATFORM_MACOS_MVK;
-				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = VK_USE_PLATFORM_MACOS_MVK;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					VK_USE_PLATFORM_MACOS_MVK,
+				);
+				"GCC_PREPROCESSOR_DEFINITIONS[arch=*]" = (
+					"$(inherited)",
+					VK_USE_PLATFORM_MACOS_MVK,
+				);
 				INFOPLIST_FILE = "$(SRCROOT)/macOS/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "@executable_path";
 				LIBRARY_SEARCH_PATHS = (
@@ -689,7 +733,7 @@
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = MVK_vulkanscene;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
@@ -736,7 +780,7 @@
 				GCC_C_LANGUAGE_STANDARD = c99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREPROCESSOR_DEFINITIONS = MVK_vulkanscene;
+				GCC_PREPROCESSOR_DEFINITIONS = "";
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
