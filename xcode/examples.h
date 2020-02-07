@@ -27,7 +27,7 @@
 // In the list below, the comments indicate entries that,
 // under certain conditions, that may not run as expected.
 
-#define MVK_vulkanscene
+#define MVK_pipelines
 
 // BASICS
 
@@ -353,9 +353,9 @@
 
 // MISC
 
-// Not compiling!
 #ifdef MVK_gears
 #   include "../examples/gears/gears.cpp"
+#   include "../examples/gears/vulkangear.cpp"
 #endif
 
 #ifdef MVK_vulkanscene
